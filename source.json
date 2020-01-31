@@ -1,0 +1,988 @@
+{
+  "action": {
+    "add": "Ajouter",
+    "editOrder": "Editer la commande",
+    "mergeOrder": "Rapprochement de commande",
+    "export": "Exporter",
+    "isExporting": "Export en cours",
+    "modify": "Modifier",
+    "confirm": "Confirmer",
+    "cancelShort": "Annuler",
+    "update": "Mettre à jour",
+    "send": "Envoyer",
+    "sort": "Trier",
+    "close": "Fermer",
+    "add_retailer": "Ajouter une enseigne",
+    "add_carrier": "Ajouter un transporteur",
+    "add_order": "Créer une commande",
+    "modify_retailer": "Modifier le retailer",
+    "save": "Enregistrer",
+    "cancel": "Annuler les modifications",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "reset": "Réinitialiser",
+    "cancelAlone": "Annuler",
+    "addPackage": "Ajouter un colis",
+    "addProduct": "Ajouter un produit",
+    "modifyPackage": "Modifier le colis",
+    "validate": "Valider",
+    "addDeliveryOrder": "Créer commande de livraison",
+    "mergeOrders": "Rapprocher les commandes",
+    "modifyDelivery": "Modifier la livraison",
+    "modifyCancelOrder": "Reprendre la livraison",
+    "lockedOrder": "Hors délai de modification",
+    "unauthorizedOrder_edit": "Modification: Droits insuffisants",
+    "unauthorizedOrder_cancel": "Annulation: Droits insuffisants",
+    "cancelDelivery": "Annuler la livraison",
+    "noCancelDelivery": "Annulation de la livraison impossible",
+    "delete": "Supprimer",
+    "deletion_colis": "Suppression du Colis",
+    "deletionProduct": "Suppression du produit",
+    "load": "Charger plus",
+    "seeTracking": "Voir le suivi",
+    "showCarrierInformation": "Afficher les informations",
+    "showPath": "Afficher l'itinéraire",
+    "showComment": "Afficher le commentaire",
+    "manualQuote": "Devis en direct avec le transporteur",
+    "confirmDelivery": "Confirmer la livraison",
+    "validateDelivery": "Valider la livraison",
+    "confirmOrder": "Confirmer la commande"
+  },
+  "messages": {
+    "api": {
+      "error": "Oops! Quelque chose s'est mal passé",
+      "save": "Les données ont été enregistrées.",
+      "empty": "Oops! Aucune donnée n'a été trouvée",
+      "unsaved": "Oops! Une erreur est arrivée lors de l'enregistrement",
+      "conflictStore": "Un magasin avec cet identifiant existe déjà.",
+      "conflictOrder": "Cette livraison est déjà en cours.",
+      "conflictDate": "Livraison impossible à cette date",
+      "conflictMergeOrder": "Impossible de rapprocher une commande en cours, annulée ou déjà livrée.",
+      "forbiddenMerge": "Impossible de rapprocher des commandes provenant de magasin ou enseigne différente.",
+      "forbiddenTypologie": "Typologie non autorisée",
+      "forbiddenRange": "Impossible de créer la commande : la capacité de stockage sur ce créneau n’est pas suffisante."
+    },
+    "incidents": {
+      "comment": "Le commentaire est obligatoire",
+      "status": "Ce statut ne peut pas suivre l'actuel"
+    },
+    "user": {
+      "role-error": "Veuillez compléter les données relatives à ce rôle",
+      "notAllowed": "Vos droits sont en cours de modération."
+    },
+    "services": {
+      "chooseRoomOrHome": "Veuillez sélectionner le service 'Livraison pièce au choix' ou 'Livraison devant habitation'"
+    },
+    "form": {
+      "urlFormat": "L'URL doit commencer par http:// ou https://",
+      "noOpeningHours" : "Les horaires d'ouverture du magasin doivent être renseignés"
+    },
+    "hiddenInformations": "Les informations sont masquées"
+  },
+  "menu": {
+    "title": "Menu",
+    "dashboard": "Dashboard",
+    "tracking": "Suivi activité",
+    "users": "Utilisateurs",
+    "retailers": "Enseignes",
+    "stores": "Magasins",
+    "incidents": "Journal des incidents",
+    "deliveries": "Livraisons",
+    "carriers": "Transporteurs",
+    "delivery": "Livraison",
+    "export": "Export",
+    "mergeOrders": "Rapprocher les commandes",
+    "notifications": "Notifications",
+    "kpi": "KPI",
+    "subscriptions": "Abonnements"
+  },
+  "time": {
+    "day": "j",
+    "hour": "h",
+    "minute": "m",
+    "second": "s"
+  },
+  "days": {
+    "mon": "Lundi",
+    "tue": "Mardi",
+    "wed": "Mercredi",
+    "thu": "Jeudi",
+    "fri": "Vendredi",
+    "sat": "Samedi",
+    "sun": "Dimanche",
+    "initials": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Jeu",
+      "fri": "Ven",
+      "sat": "Sam",
+      "sun": "Dim"
+    }
+  },
+  "header": {
+    "account": "Mon compte",
+    "disconnect": "Se déconnecter"
+  },
+  "retailer": {
+    "header": "Profil",
+    "title": "Retailer",
+    "name": "Nom Retailer",
+    "smsSendingName": "Nom d'envoi SMS Retailer",
+    "id": "ID Retailer",
+    "api": "API Client ID",
+    "auth": "ID Fournisseur CICP",
+    "logo": "Logo",
+    "color": "Couleur",
+    "contact": "Contacter l'enseigne",
+    "carriers": "Transporteurs actifs",
+    "noMinScore": "Pas de note critique pour le moment",
+    "minScore": "Note critique",
+    "minScoreTitle": "Si la note donnée par le client pour la livraison est inférieure à cette valeur alors le contact adresse magasin sera alerté par email",
+    "minuteBeforeCutoff": "Limite de prélèvement",
+    "minuteBeforeCutoffTitle": "Correspond à la durée de prélèvement maximale de la commande avant la fermeture du magasin ( en minute )",
+    "catalogs": "Catalogues",
+    "typologies": {
+      "name" : "Typologie de produit",
+      "required": "Vous devez avoir au moins une typologie active",
+      "confirmActivation": "Confirmez-vous l'activation de cette typologie ?",
+      "confirmDisable": "Confirmez-vous la désactivation de cette typologie ? (Cette désactivation n'impactera pas vos commandes déjà dans la plateforme)"
+    },
+    "administration": {
+      "header": "Administration",
+      "retailerHeader": "Administration page client final",
+      "url": "URL espace client",
+      "mentions": "Texte mentions légales"
+    },
+    "steps": {
+      "title": "Étapes de création de commande",
+      "enable": "Confirmez-vous l'activation de ce bloc pour la création de commande ?",
+      "disable": "Confirmez-vous la désactivation de ce bloc pour la création de commande ?",
+      "list": {
+        "STEP_ORDER": "Bloc commande",
+        "STEP_PACKAGES": "Bloc colis",
+        "STEP_SERVICES": "Bloc services de prise en charge",
+        "STEP_DELIVERY_CONTACT": "Bloc contact de livraison",
+        "STEP_DELIVERY_ADDRESS": "Bloc adresse de livraison",
+        "STEP_DELIVERY_RANGE": "Bloc créneau de livraison",
+        "STEP_PICKING_ADDRESS": "Bloc adresse de prélèvement",
+        "STEP_PICKING_RANGE": "Bloc créneau de prélèvement"
+      }
+    },
+    "weightingIndexes": {
+      "header": "Pondération",
+      "price": "Prix",
+      "environment": "Environnement",
+      "satisfaction": "Qualité",
+      "warning": "Le cumul des notes doit être égal à 100"
+    },
+    "validation": {
+      "smsSendingName": "Format requis: 3 à 11 caractères sans accents, chiffres ou caractères spéciaux."
+    }
+  },
+  "store": {
+    "store_list": "Liste des magasins",
+    "confirmActivation": "Confirmez-vous l'activation de ce magasin ?",
+    "confirmDesactivation": "Confirmez-vous la désactivation de ce magasin ? (Cette désactivation n'impactera pas vos commandes déjà dans la plateforme)",
+    "name": "Nom",
+    "externalStoreId": "Identifiant magasin",
+    "categories": {
+      "info": "Informations",
+      "contacts": {
+        "administrative": "Contact administratif",
+        "levy": "Contact prélèvement marchandise"
+      },
+      "address": "Adresse",
+      "openingHours": "Horaires d'ouverture",
+      "internalFleets": "Flottes internes"
+    },
+    "internalFleet": {
+      "categories": {
+        "informations": "Informations",
+        "internalFleet": "Transport interne"
+      },
+      "id": "Id",
+      "name": "Nom",
+      "beginningHour": "Heure de début",
+      "endingHour": "Heure de fin",
+      "slot": "Créneau horaire",
+      "capacity": "Capacitaire volumique",
+      "confirmDesactivate": "Confirmez-vous la désactivation de cette flotte interne ?",
+      "confirmActivate": "Confirmez-vous l'activation de cette flotte interne ?",
+      "state": {
+        "active": "Actif",
+        "inactive": "Non actif"
+      },
+      "add": "Ajouter",
+      "modify": "Modifier",
+      "error": "Les informations enregistrées le {{day}} sont incorrectes",
+      "errorHour": "L'heure de fin doit être différente de l'heure de début"
+    },
+    "openingHours": {
+      "closed": "Fermé"
+    },
+    "state": {
+      "active": "Actif",
+      "inactive": "Non actif"
+    }
+  },
+  "incidents": {
+    "name": "Journal des incidents",
+    "related": "incident sur cette livraison",
+    "count": "{{count}} incident(s)",
+    "filter": "Filtrer les incidents par",
+    "search": {
+      "title": "Recherche des incidents par commande",
+      "subtitle": "Saisissez le numéro de la commande liée puis lancez la recherche",
+      "notFound": "Aucun incident ne correspond à votre recherche"
+    }
+  },
+  "incident": {
+    "title": "Incident",
+    "type": "Type incident",
+    "information": "Informations",
+    "delivery": "Livraison concernée",
+    "retailer": "Retailer",
+    "store": "Magasin",
+    "ordernull": "Ordre de livraison non créé",
+    "suivi": "Suivi évolution incident",
+    "suivi_update": "Mise à jour évolution incident",
+    "alreadyCompleted": "Commande déjà rattrapée",
+    "referenceNumber": "Référence commande temporaire",
+    "status": {
+      "new": "Nouveau statut",
+      "INCIDENT_NEW": "Nouveau",
+      "INCIDENT_OPEN": "En cours",
+      "INCIDENT_LITIGATION": "Litige",
+      "INCIDENT_LITIGATION_CARRIER": "Litige transporteur",
+      "INCIDENT_CLOSED": "Fermé"
+    },
+    "types": {
+      "INCIDENT_INELIGIBLE_STORE": "Magasin non éligible",
+      "INCIDENT_DELIVERY_PICK_UP_FAILED": "Commande non récupérée",
+      "INCIDENT_DELIVERY_PICK_UP_PARTIALLY": "Commande prise en charge partiellement",
+      "INCIDENT_DELIVERY_WITH_CLAIM": "Livré avec réclamation",
+      "INCIDENT_DELIVERY_FAILED": "Livraison impossible",
+      "INCIDENT_DELIVERY_CANCELLED": "Livraison annulée",
+      "INCIDENT_NO_CARRIER_AVAILABLE": "Transporteur indisponible",
+      "INCIDENT_NO_CARRIER_ELIGIBLE": "Pas de transporteur éligible",
+      "INCIDENT_ORDER_TO_BE_COMPLETED": "Commande incomplète",
+      "INCIDENT_ORDER_WITH_NO_QUOTE": "Aucun devis attaché",
+      "INCIDENT_UNDER_RATE_SCORE": "Note client sous limite",
+      "INCIDENT_FORBIDDEN_TYPOLOGY": "Typologie non autorisée"
+    },
+    "catch": "Commande rattrapée"
+  },
+  "billing": {
+    "deltacost": {
+      "DELTACOST_WRONG_FLOOR": "Nombre d'étage erroné",
+      "DELTACOST_EXTEND_WAITING_WAREHOUSE": "Attente prolongée en magasin",
+      "DELTACOST_EXTEND_WAITING_CUSTOMER": "Attente prolongée chez le client",
+      "DELTACOST_WRONG_CONTENT": "Contenu commande erroné",
+      "DELTACOST_WAREHOUSE_RETURN": "Retour en magasin",
+      "DELTACOST_LATE_CANCELLATION": "Annulation tardive",
+      "DELTACOST_PICKUP_FAILED": "frais échec prélèvement",
+      "DELTACOST_PARTIALLY_DELIVERED": "frais livraison partielle et retour marchandise",
+      "DELTACOST_UNKNOWN": "inconnu - recontacter transporteur"
+    },
+    "vat": {
+      "excluded": "HT",
+      "included": "TTC"
+    }
+  },
+  "deliveries": {
+    "title": "Liste livraison",
+    "delivery_list": "livraisons",
+    "filters": "Filtrer commandes",
+    "quick_search": {
+      "title": "Recherche rapide par numéro de commande",
+      "description": "Saisissez le numéro de commande pour arriver directement sur sa page détail",
+      "notfound": "Commande non reconnue",
+      "notonylyone": "Plusieurs commandes correspondantes"
+    },
+    "tab_header": {
+      "icon": "",
+      "date": "Date prélèvement",
+      "createdAt": "Date de création",
+      "externalDeliveryId": "ID Livraison",
+      "referenceNumber": "Référence commande",
+      "retailer": "Enseigne - Magasin",
+      "order_status": "Statut de commande",
+      "delivery_status": "Statut de livraison",
+      "carrier": "Transporteur",
+      "store": "Magasin",
+      "internalFleet": "Flotte interne",
+      "retailerOnly": "Enseigne"
+    },
+    "cancel_order": {
+      "titleCancelOrder": "Annulation",
+      "messageCancelOrder": "Confirmez-vous l'annulation de la commande ?",
+      "messageCancelOrderExtraCost": "La commande est en cours de livraison, l'annulation entrainera potentiellement des frais supplémentaires. Confirmez-vous l'annulation de la commande ?",
+      "messageCancelOrderImpossible": "Impossible d'annuler: commande livrée ou déjà annulée"
+    },
+    "manualQuote": {
+      "title": "Renseigner devis",
+      "availableCarrier": "Transporteur joignable",
+      "availableCarrier_plural": "Transporteurs joignables",
+      "carrier": "Transporteur sollicité *",
+      "deliveryId": "ID Livraison *",
+      "price": "Devis validé avec le transporteur (€ HT) *",
+      "vehicleType": "Véhicule utilisé",
+      "confirm": "Le devis a correctement été enregistré."
+    },
+    "confirm": {
+      "title": "Confirmer la livraison",
+      "content": "Confirmer que la livraison a bien été livrée avec succès.",
+      "success": "Livraison confirmée avec succès."
+    },
+    "confirmOrder": {
+      "title": "Confirmation de commande",
+      "content": "Votre commande est maintenant validée !"
+    },
+    "validate": {
+      "title": "Validation de la livraison",
+      "content": "Veuillez indiquer la date de livraison de votre commande."
+    }
+  },
+  "order": {
+    "summary": "Récapitulatif de la commande",
+    "order": "Commande",
+    "orderId": "ORDER ID",
+    "orderReference": "Numéro de commande client",
+    "addReference": "Ajouter une référence commande",
+    "technicalId": "ID technique commande",
+    "status": "Statut Commande",
+    "deliveryStatus": "Statut de la Livraison",
+    "deliveryStatusTitle": "Statut Livraison",
+    "orderStatus": "Statut de commande",
+    "unvalidated": "Commande non validée",
+    "quoteTitle": "Transporteurs sollicités",
+    "hide": "Cacher le detail",
+    "open": "Voir le detail",
+    "delivery": "Livraison",
+    "contact": "Contact transporteur",
+    "followDelivery": "Suivre ma commande",
+    "claim": "Effectuer une réclamation",
+    "externalDeliveryId": "DELIVERY ID",
+    "externalDeliveryReference": "DELIVERY REFERENCE",
+    "route": "Itineraire",
+    "billings": "Suivi-Facturation",
+    "shippingInfo": "Info Complementaire au prelevement",
+    "deliveryInfo": "Info Complementaire a la livraison",
+    "orderRef": "Réference commande",
+    "generalInformation": "Informations générales",
+    "clientInfo": "Informations Client Final",
+    "pickingInfos": "Informations de prélèvement",
+    "checkinDate": "date d'enregistrement",
+    "services": "Services de prise en charge",
+    "package": "Colis {{number}}",
+    "packageDetail": "Detail Colis",
+    "packageTotalNumber": "Nombre total de colis",
+    "packageTotalWeight": "Poids total des colis",
+    "downloadPdf": "Bordereau de livraison",
+    "refreshStatus": "Rafraîchir le statut",
+    "length": "Longueur",
+    "width": "Largeur",
+    "weight": "Poids",
+    "height": "Hauteur",
+    "size": "Dimension",
+    "description": "Description",
+    "ean": "EAN",
+    "cug": "CUG",
+    "label": "Libellé",
+    "addProduct": "Ajouter un produit",
+    "product": "Produit {{number}}",
+    "quantity": "Quantité",
+    "boxNumber": "Nombre de colis",
+    "articleQuantity": "Quantité article",
+    "volume": "Volume",
+    "usedVolume": "Volume occupé",
+    "volumeExplanation": "Correspond à la place théorique nécessaire au transport du produit. Exemple: pour un frigo américain, veuillez saisir un volume égal à 2",
+    "productTypes": "Typologie",
+    "productTypesDisclaimer": "L’expédition de matières et produits dangereux (gaz, matières explosives, inflammables ou comburantes) n’est pas encore possible via MeltingPoint",
+    "tracking": "Suivi du colis",
+    "deliveryContact": "Contact de livraison",
+    "pickingContact": "Contact de prélèvement",
+    "deliveryAddress": "Adresse de livraison",
+    "moreInfo": "Informations complementaires",
+    "adressMoreInfo": "Informations complementaires à l'intention du transporteur",
+    "DeliveryInterval": "Créneau Livraison",
+    "timeRange": "Créneau horaire",
+    "deliveryDate": "Date de livraison souhaitée",
+    "deliveryHour": "Heure de livraison souhaitée",
+    "pickupAddress": "Adresse de prélèvement",
+    "PickingInterval": "Créneau de prélèvement",
+    "pickupDate": "Date de prélèvement souhaitée",
+    "pickupHour": "Heure de prélèvement souhaitée",
+    "required": "Champs requis",
+    "addColis": "Colis ajouté",
+    "deleteColis": "Colis supprimé",
+    "confirmDeleteColis": "Confirmez-vous la supression de ce colis ?",
+    "confirmDeleteProduct": "Confirmez-vous la supression de ce produit ?",
+    "editColis": "Colis modifié",
+    "titleModifyOrder": "Modification de la commande",
+    "messageModifyOrder": "Confirmez-vous la modification de la commande ?",
+    "cancelBo": "Annulation backoffice",
+    "carrier": "Transporteur",
+    "transport": "Véhicule",
+    "billedVehicle": "Véhicule facturé",
+    "carrierPrice": "Frais transporteur",
+    "billedDistance": "Kilomètres facturés",
+    "emittedCarbon": "Emission de CO2",
+    "delta": "Suivi delta cost",
+    "retailer": "Enseigne",
+    "store": "Magasin",
+    "saveDate": "Date d'enregistrement",
+    "serviceLevel": "Niveau de service",
+    "deliveryScore": "Note client final",
+    "referenceNumber": "Référence commande",
+    "businessReferenceNumber": "Référence métier commande",
+    "updatedOrder": "Voir livraison modifiée",
+    "notifications": "Notifications",
+    "comments": "Commentaires",
+    "team": "Équipage",
+    "error": {
+      "packages": "Votre commande de livraison doit contenir au moins un colis",
+      "invalidPackages": "Un des colis de la commande de livraison n'est pas valide (Typologie de produit manquante ou valeurs incorrectes).",
+      "invalidValue": "Les détails du colis doivent être renseignés.",
+      "invalidProducts": "Veuillez ajouter au moins un produit.",
+      "invalidInformations": "Informations obligatoires non renseignée ou incorrecte",
+      "invalidTypology": "Veuillez sélectionner une typologie par produit",
+      "services": "Veuillez selectionner au moins un niveau de service pris en charge",
+      "typology": "Veuillez selectionner au moins une typologie de produit pris en charge",
+      "length": "Veuillez saisir au moins 4 caractères",
+      "pickHour": "L'heure de début doit être inférieure à l'heure de fin dans le créneau de prélèvement",
+      "deliveryHour": "L'heure de début doit être inférieure à l'heure de fin dans le créneau de livraison",
+      "deliveryDate": "L'intervalle de prélèvement doit-être inférieur ou égal à l'intervalle de livraison",
+      "deliveryContact": "Contact de livraison non renseigné ou incorrect",
+      "deliveryAddress": "Adresse de livraison non renseignée ou incorrecte",
+      "pickupContact": "Contact de prélèvement non renseigné ou incorrect",
+      "pickupAddress": "Adresse de prélèvement non renseignée ou incorrecte"
+    }
+  },
+  "services": {
+    "types": {
+      "SERVICE_FRONT_HOME": "Livraison devant habitation",
+      "SERVICE_SELECTED_ROOM": "Livraison pièce du choix",
+      "SERVICE_PICKUP_POINT": "Livraison point relais",
+      "SERVICE_REGULAR_FRONT_HOME": "Livraison à domicile"
+    },
+    "options": {
+      "SERVICE_UNPACKING": "Déballage et reprise des emballages",
+      "SERVICE_INSTALL": "Installation électroménager",
+      "SERVICE_RECOVERY": "Reprise de l'ancien matériel"
+    }
+  },
+  "intervalMode": {
+    "INTERVAL_MODE_EXPRESS": "Livraison en 2h",
+    "INTERVAL_MODE_STANDARD": "Livraison sur créneau"
+  },
+  "mergeOrders": {
+    "title": "Rapprocher les commandes",
+    "mainOrder": "Commande principale",
+    "placeholder": "ORDER ID",
+    "ordersToMerge": "Commande(s) à rapprocher"
+  },
+  "DeliveryStatus": {
+    "DELIVERY_INIT": "Validée transporteur",
+    "DELIVERY_STARTED": "Coursier en approche magasin",
+    "DELIVERY_PICK_UP_REACHED": "Coursier arrivé en magasin",
+    "DELIVERY_PICK_UP_OK": "Commande prise en charge",
+    "DELIVERY_PICK_UP_PARTIALLY": "Commande prise en charge partiellement",
+    "DELIVERY_IN_PROGRESS": "Commande en cours de livraison",
+    "DELIVERY_AT_DROP_OF_LOCATION": "Coursier arrivé client",
+    "DELIVERY_PICK_UP_FAILED": "Commande en echec au retrait",
+    "DELIVERY_DELIVERED_WITH_CLAIM": "Commande livrée avec réserves",
+    "DELIVERY_CANCELLED_WITH_RETURN": "Livraison annulée avec retour magasin",
+    "DELIVERY_CANCELLED_WITHOUT_RETURN": "Livraison annulée sans retour magasin",
+    "DELIVERY_FAILED_WITH_RETURN": "Livraison en echec avec retour magasin",
+    "DELIVERY_FAILED_WITHOUT_RETURN": "Livraison en echec avec attente d'ordre de retour",
+    "DELIVERY_RETURNED_TO_PICK_UP": "Commande retournée en magasin",
+    "DELIVERY_DELIVERED_OK": "Commande livrée conforme",
+    "DELIVERY_DELIVERED_PARTIALLY": "Commande livrée partiellement",
+    "DELIVERY_CANCELLED": "Livraison annulée",
+    "DELIVERY_BLOCKED": "Livraison bloquée",
+    "DELIVERY_AVAILABLE": "Livraison disponible",
+    "DELIVERY_DELAYED": "Livraison retardée"
+  },
+  "deliveryPackage": {
+    "noTracking": "Pas de suivi",
+    "tracking": "Suivi n°{{number}}",
+    "trackingNumber": "Numéro de suivi",
+    "currentStatus": "Statut"
+  },
+  "OrderStatus": {
+    "ORDER_CREATED": "Enregistrée",
+    "ORDER_UPDATED": "Mise à jour",
+    "ORDER_TO_BE_COMPLETED": "A compléter",
+    "ORDER_WITH_NO_CARRIER_ELIGIBLE": "Aucun transporteur",
+    "ORDER_TO_BE_QUOTED": "En attente de devis",
+    "ORDER_QUOTED": "Devis en cours d'analyse",
+    "ORDER_WITH_NO_QUOTE": "Aucun devis",
+    "ORDER_QUOTE_TO_BE_CONFIRMED": "Commande en attente de confirmation",
+    "ORDER_TO_BE_SENT_TO_CARRIER": "Livraison à confirmer",
+    "ORDER_WITH_NO_CARRIER_AVAILABLE": "Transporteurs indisponibles",
+    "ORDER_REFUSED_DELIVERY": "Livraison refusée",
+    "ORDER_TO_DELIVER": "A livrer",
+    "ORDER_BEING_DELIVERED": "Livraison en cours",
+    "ORDER_DELIVERY_UNCOMPLETED": "Livraison non finalisée",
+    "ORDER_DELIVERED": "Livrée",
+    "ORDER_CANCELLED": "Annulée"
+  },
+  "vehicleType": {
+    "VEHICLE_TYPE_BIKE": "Vélo",
+    "VEHICLE_TYPE_SCOOTER": "Scooter",
+    "VEHICLE_TYPE_E_SCOOTER": "Scooter éléctrique",
+    "VEHICLE_TYPE_VAN_SMALL": "Petit utilitaire",
+    "VEHICLE_TYPE_E_VAN_SMALL": "Petit utilitaire électrique",
+    "VEHICLE_TYPE_VAN_MEDIUM": "Utilitaire moyen",
+    "VEHICLE_TYPE_PEDESTRIAN": "Piéton/Transports en commun",
+    "VEHICLE_TYPE_TRUCK": "Poids lourds",
+    "VEHICLE_TYPE_VAN_BIG": "Grand utilitaire",
+    "VEHICLE_TYPE_E_VAN_BIG": "Grand utilitaire électrique",
+    "VEHICLE_TYPE_BIKE_CARGO": "Vélo cargo",
+    "VEHICLE_TYPE_CAR": "Voiture",
+    "VEHICLE_TYPE_E_CAR": " Voiture électrique"
+  },
+  "reason": {
+    "REFUSED_TOO_HEAVY": "Trop volumineux",
+    "REFUSED_AVAILABILITY": "Pas de disponibilité",
+    "REFUSED_AREA": "Secteur géographique non couvert",
+    "REFUSED_TOO_LARGE": "Dimensions hors normes",
+    "REFUSED_TIME_NOT_WORKED": "Horaire non ouvré",
+    "REFUSED_DAY_OFF": "Jour non ouvré",
+    "REFUSED_EXCEPTION": "Fait exceptionnel",
+    "TECHNICAL_TIMEOUT": "Le transporteur n’a pas répondu dans le temps imparti"
+  },
+  "contacts": {
+    "main": "Contact principal",
+    "notitle": "Contact sans libellé",
+    "title": "Libellé du contact",
+    "lastName": "Nom",
+    "firstName": "Prénom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "fleet": "Flotte"
+  },
+  "address": {
+    "main": "Adresse principale",
+    "notitle": "Adresse sans libellé",
+    "title": "Libellé de l'adresse",
+    "addressLine1": "Adresse",
+    "addressLine2": "Complément adresse",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "country": "Pays",
+    "infos": "Commentaire",
+    "lift": "Ascenseur",
+    "noLift": "Sans Ascenseur",
+    "withLift": "Avec Ascenseur",
+    "floor": "Etage",
+    "noFloor": "Etage non précisé",
+    "goundFloor": "Rez-de-chaussée",
+    "digitalCode": "Digicode",
+    "noDigitalCode": "Pas de digicode",
+    "comment": "Commentaire",
+    "disabledLift": "Un étage doit être saisi pour pouvoir selectionner 'ascenseur'"
+  },
+  "carriers": {
+    "title": "Transporteurs",
+    "name": "Nom",
+    "characteristics": "Caractéristiques transporteur",
+    "maxKilogramCapacity": "Poids maximum pris en charge",
+    "score": "Note nationale",
+    "confirmActivation": "Confirmez-vous l'activation de ce transporteur ?",
+    "confirmDisable": "Confirmez-vous la désactivation de ce transporteur ? (Cette désactivation n'impactera pas vos commandes déjà dans la plateforme)",
+    "stockageAvailability": "Capacité de stockage"
+  },
+  "table": {
+    "active": "Actif / Inactif",
+    "id": "ID",
+    "name": "Nom",
+    "smsSendingName": "Nom d'envoi SMS",
+    "email": "Email",
+    "contact": "Contact",
+    "store_number": "Nb magasins éligibles",
+    "weighting": "Synthèse pondération ",
+    "status": "Statut de commande",
+    "date": "Date",
+    "full_date": "Date - Heure",
+    "pick_date": "Date de prélèvement",
+    "createdAt": "Date de création",
+    "store": "Magasin",
+    "ticket_ref": "ORDER ID - DELIVERY ID",
+    "referenceNumber": "Référence commande",
+    "delivery_status": "Statut de livraison",
+    "externalDeliveryId": "ID livraison",
+    "incident_type": "Type incident",
+    "incident_status": "Statut incident",
+    "comment": "Commentaire",
+    "actor": "Acteur",
+    "retailer": "Enseigne - Magasin",
+    "carrier": "Transporteur",
+    "retailerOnly": "Enseigne",
+    "role": "Rôle",
+    "header_sort": "Trier le tableau sur {{header}}",
+    "event": "Événement",
+    "dateHour": "Date-Heure",
+    "interval": "Créneau",
+    "reason": "Raison",
+    "value": "Value",
+    "timestamp": "Timestamp",
+    "to": {
+      "hour": "à",
+      "day": "au"
+    },
+    "refQuote": "Réference Devis",
+    "vehicle": "Véhicule utilisé",
+    "quotePrice": "Devis €",
+    "indexes": {
+      "environment": "Note écologique",
+      "score": "Note qualité",
+      "price": "Note prix"
+    },
+    "reasonCarrier": "Motif refus transporteur",
+    "score": "Moyenne pondérée",
+    "clientLastname": "Nom de famille client",
+    "notifications": {
+      "status": "Etat",
+      "sender": "Expéditeur",
+      "type": "Type",
+      "date": "Date",
+      "subject": "Évènement",
+      "message": "Message",
+      "failReason": "Raison d'échec"
+    },
+    "team": "Équipage",
+    "externalStatus": "Statut externe",
+    "externalLabel": "Label",
+    "steps": "Étapes",
+    "internalFleet": "Flotte interne"
+  },
+  "dashboard": {
+    "deliveries": {
+      "icon": "",
+      "createdAt": "Date de création",
+      "deliveries_today": "Prélèvements du jour",
+      "deliveries_d1": "Prélèvements J+1",
+      "deliveries_d2": "Prélèvements J+2",
+      "deliveries_next": "Prélèvements futurs",
+      "delivery_status": "Statut de livraison",
+      "pick_hour": "Heure de prélèvement",
+      "pick_hour_day": "Date de prélèvement",
+      "externalDeliveryId": "ID Livraison",
+      "referenceNumber": "Référence commande",
+      "retailer": "Enseigne",
+      "store": "Magasin",
+      "carrier": "Transporteur",
+      "order_status": "Statut de commande"
+    },
+    "incidents": {
+      "see_all": "Voir tout",
+      "title": "Dernier incidents"
+    }
+  },
+  "carrier": {
+    "state": {
+      "active": "Actif",
+      "inactive": "Non actif"
+    },
+    "active": "Actif",
+    "contact": "Contact service client",
+    "address": "Information facturation",
+    "siret": "SIRET",
+    "claim": {
+      "label": "URL formulaire de réclamation",
+      "noUrl": "Pas d’URL renseignée - utiliser l’email du contact service client ou le numéro de téléphone ci-dessus"
+    },
+    "tracking": {
+      "label": "URL page de suivi"
+    },
+    "typology": "Typologie de produit pris en charge",
+    "service": "Niveau de service pris en charge",
+    "intervention": "Périmètre d'intervention",
+    "department": "Voir détail par département",
+    "countryCovered": "Pays couvert",
+    "countryUncovered": "Pays non couvert",
+    "detailintervention": "Détail périmètre d'intervention",
+    "adddepartment": "Sélectionnez les départements",
+    "confirmActivation": "Confirmez-vous l'activation de ce transporteur ?",
+    "confirmDesactivation": "Confirmez-vous la désactivation de ce transporteur ?",
+    "SERVICE_SELECTED_ROOM": "Livraison pièce du choix",
+    "SERVICE_UNPACKING": "Déballage et reprise des emballages",
+    "SERVICE_INSTALL": "Installation électroménager",
+    "SERVICE_FRONT_HOME": "Livraison devant habitation",
+    "SERVICE_REGULAR_FRONT_HOME": "Livraison à domicile",
+    "SERVICE_RECOVERY": "Reprise de l'ancien matériel",
+    "SERVICE_PICKUP_POINT": "Livraison en point relais",
+    "TYPOLOGY_GENERIC": "Marchandise générale",
+    "TYPOLOGY_GROCERY": "Epicerie",
+    "TYPOLOGY_FRESH": "Frais",
+    "TYPOLOGY_FROZEN": "Surgelés",
+    "TYPOLOGY_DANGEROUS": "Produit dangereux",
+    "TYPOLOGY_HOUSEHOLD": "Electroménager D3E",
+    "TYPOLOGY_VOLUMINOUS": "Produit volumineux",
+    "TYPOLOGY_FRAGILE": "Produits fragiles",
+    "TYPOLOGY_VOLUMINOUS_FRAGILE": "Produits volumineux et fragile"
+  },
+  "export": {
+    "title": "Export des livraisons",
+    "filter": "Filtres",
+    "carrier": "Transporteur",
+    "retailer": "Enseigne",
+    "internalFleet": "Flotte interne",
+    "store": "Magasin",
+    "orderStatus": "Statut de commande",
+    "deliveryStatus": "Statut de livraison",
+    "rangePicking": "Commandes prélevées",
+    "rangeDelivery": "Commandes livrées",
+    "from": "du",
+    "to": "au",
+    "messageConfirm": "{{results}} résultats trouvés, voulez-vous exporter ?",
+    "messageConfirmWithWarning": "Seuls les 1000 premiers résultats seront exportés, voulez-vous exporter ?"
+  },
+  "users": {
+    "roles": {
+      "SUPER_ADMIN": "Super Administrateur",
+      "ADMIN": "Administrateur",
+      "RETAILER": "Enseigne",
+      "STORE": "Magasin",
+      "STORE_ASSISTANT": "Préparateur magasin",
+      "NONE": ""
+    },
+    "title": "Utilisateurs",
+    "filters": "Filtrer utilisateurs",
+    "header": "Profil",
+    "contact": "Coordonnées",
+    "email": "Email",
+    "phone": "Téléphone",
+    "position": "Fonction",
+    "role": "Rôle",
+    "name": "Nom",
+    "store": "Magasin",
+    "retailer": "Enseigne",
+    "state": {
+      "active": "Actif",
+      "inactive": "Non actif"
+    }
+  },
+  "login": {
+    "title": "Last Mile",
+    "hint": "Sélectionnez votre enseigne"
+  },
+  "fallback": {
+    "error": {
+      "title": "Oops! Quelque chose s'est mal passé.",
+      "description": "Nous travaillons à corriger ceci. Pendant ce temps vous pouvez retourner au dashboard"
+    },
+    "notfound": {
+      "title": "Oops! Page non trouvée.",
+      "description": "Nous n'avons pas trouvé la page que vous recherchiez. Pendant ce temps vous pouvez retourner au dashboard"
+    },
+    "unauthorized": {
+      "title": "Oops! Page non autorisée",
+      "description": "Vous n'êtes pas autorisé à accéder à cette page."
+    }
+  },
+  "input": {
+    "phone_msg": "Le numéro de téléphone saisi n'est pas valide.",
+    "phone_completed": "Veuillez ressaisir le numéro de téléphone",
+    "image_size": "La taille de l'image ne peut pas excéder 100 ko.",
+    "image_format": "Format de fichier non valide. Format valide: .jpg .jpeg .png",
+    "color": "Le code couleur saisi n'est pas valide.",
+    "url": "L'URL Espace Client doit commencer par \"http(s)://\""
+  },
+  "common": {
+    "kilogram": "kg",
+    "no_limit": "Pas de limite",
+    "products": "produits",
+    "other": "Autre",
+    "between": "entre",
+    "edited": "modifié",
+    "and": "et",
+    "true": "Oui",
+    "address": "Adresse",
+    "euro": "€",
+    "false": "Non",
+    "minute": "minute",
+    "deliveryDate": "Date de livraison"
+  },
+  "country": {
+    "FR": "France",
+    "BE": "Belgique"
+  },
+  "answer": {
+    "satisfaction": "Notre service de livraison correspondait-il à vos attentes ?",
+    "recommendation": "Recommanderiez-vous notre service de livraison à vos proches ?",
+    "comment": "Avez-vous des suggestions à nous partager afin de nous aider à améliorer notre service de livraison ?"
+  },
+  "pdf": {
+    "store": "Donneur d'ordre",
+    "delivery": "Point de livraison",
+    "pickup": "Point de retrait",
+    "package": "Colis",
+    "address": "Adresse",
+    "deliveryDate": "Date de livraison",
+    "phone": "Téléphone",
+    "carrierReference": "Référence transporteur",
+    "primaryReference": "Référence primaire",
+    "secondaryReference": "Référence secondaire",
+    "productDescription": "Description des produits",
+    "packageNumber": "Nombre de colis",
+    "totalWeight": "Poids total",
+    "title": "Bordereau de livraison {{carrierName}}",
+    "services": "Option(s) de livraison",
+    "filename": "bordereau_livraison_{{externalOrderId}}.pdf"
+  },
+  "notifications": {
+    "picto": {
+      "sentToCustomer": "Envoyé au client final"
+    },
+    "types": {
+      "SMS": "SMS",
+      "MAIL": "E-mail",
+      "SLACK": "Slack",
+      "CALL": "Appel",
+      "EVENT_TYPE_SMS": "SMS",
+      "EVENT_TYPE_MAIL": "E-mail",
+      "EVENT_TYPE_CALL": "Appel"
+    },
+    "subject": {
+      "INCIDENT_INELIGIBLE_STORE": "Magasin non éligible",
+      "INCIDENT_DELIVERY_PICK_UP_FAILED": "Commande non récupérée",
+      "INCIDENT_DELIVERY_WITH_CLAIM": "Livré avec réclamation",
+      "INCIDENT_DELIVERY_FAILED": "Livraison impossible",
+      "INCIDENT_DELIVERY_CANCELLED": "Livraison annulée",
+      "INCIDENT_NO_CARRIER_AVAILABLE": "Transporteur indisponible",
+      "INCIDENT_NO_CARRIER_ELIGIBLE": "Pas de transporteur éligible",
+      "INCIDENT_ORDER_TO_BE_COMPLETED": "Commande incomplète",
+      "INCIDENT_ORDER_WITH_NO_QUOTE": "Aucun devis attaché",
+      "INCIDENT_UNDER_RATE_SCORE": "Note client sous limite",
+      "TECHNICAL_DELTA_COST": "Coût supplémentaire",
+      "TECHNICAL_DELIVERY_PICKUP_SOON": "Commande bientôt prise en charge",
+      "DELIVERY_INIT": "Validée transporteur",
+      "DELIVERY_STARTED":"Coursier en approche magasin",
+      "DELIVERY_PICK_UP_REACHED": "Coursier arrivé en magasin",
+      "DELIVERY_PICK_UP_OK": "Commande prise en charge",
+      "DELIVERY_DELIVERED_OK": "Commande livrée",
+      "DELIVERY_IN_PROGRESS": "Commande en cours de livraison",
+      "DELIVERY_AT_DROP_OF_LOCATION": "Coursier arrivé client",
+      "DELIVERY_PICK_UP_FAILED": "Commande en echec au retrait",
+      "DELIVERY_DELIVERED_WITH_CLAIM": "Commande livrée avec réserves",
+      "DELIVERY_CANCELLED_WITH_RETURN": "Livraison annulée avec retour magasin",
+      "DELIVERY_FAILED_WITH_RETURN": "Livraison en echec avec retour magasin",
+      "DELIVERY_RETURNED_TO_PICK_UP": "Commande retournée en magasin",
+      "DELIVERY_CANCELLED":"Livraison annulée",
+      "SMS_PICK_UP_SOON": "Rappel livraison 48h",
+      "CARRIER_UPDATE": "Pas de route pour la mise à jour non impactante configurée ou erreur lors de l'appel"
+    },
+    "states": {
+      "title": "Notifications",
+      "carrier": "Transporteur",
+      "confirmDesactivation": "Désactiver la notification {{notification}} pour le transporteur {{carrier}}",
+      "confirmActivation": "Activer la notification {{notification}} pour le transporteur {{carrier}}",
+      "SMS_INIT": "SMS Validée transporteur",
+      "SMS_PICK_UP_SOON": "SMS Livraison dans 48H",
+      "SMS_PICK_UP_OK": "SMS Commande prise en charge",
+      "SMS_DELIVERED_OK": "SMS Commande livrée"
+    }
+  },
+  "kpi": {
+    "title": {
+      "global": {
+        "newOrder": "Créer nouvelle livraison",
+        "delivered": "Livraisons livrées conformes",
+        "deliveredWithClaim": "Livraisons livrées avec réserve",
+        "deliveryInProgress": "Livraisons en cours",
+        "deliveryToBeCompleted": "Livraisons en incidents",
+        "deliveryLitigation": "Livraisons en litige",
+        "business": "Métier",
+        "qa": "Qualité",
+        "logistic": "Logistique"
+      },
+      "clientSatisfaction": "QUALITÉ - Satisfaction client",
+      "dropOff": "TRANSPORTEUR - Manutention chez le client",
+      "loading": "TRANSPORTEUR - Chargement magasin",
+      "onTimeDelivery": "TRANSPORTEUR - Taux de respect promesse",
+      "packageWeight": "LIVRAISON - Poid moyen livré",
+      "cost": "LIVRAISON - Coût moyen (HT)",
+      "incidentByType": "INCIDENTS",
+      "deliveryByCarrier": "TRANSPORTEURS",
+      "deliveriesByDate": "LIVRAISONS"
+    },
+    "description": {
+      "clientSatisfaction": "la note moyenne finale de satisfaction client des livraisons",
+      "dropOff": "le temps moyen passé en minute chez les clients finaux",
+      "loading": "le temps moyen passé en minute en magasin par les coursiers",
+      "onTimeDelivery": "le taux de livraisons livrées dans le créneau imparti (+/-15 min)",
+      "packageWeight": "le poids moyen des livraisons en KG des commandes arrivées chez le client final",
+      "cost": "le coût moyen des livraisons en EURO/HT",
+      "incidentByType": "le nombre d'incidents par type",
+      "deliveryByCarrier": "le nombre de livraisons par transporteur"
+    },  
+    "filter": {
+      "label": "Filtre",
+      "retailer": "enseigne",
+      "store": "magasin",
+      "week": "semaine",
+      "month": "mois",
+      "prevMonths": "-3 mois",
+      "from": "DU",
+      "to": "AU",
+      "more": "Plus de détails"
+    },
+    "error": {
+      "noDataFound": "Aucune donnée trouvée"
+    }
+  },
+  "subscriptions": {
+    "title": "États abonnements",
+    "retailer": "Enseignes",
+    "carrier": "Transporteurs",
+    "initialized": "Initialisé",
+    "uninitialized": "En attente"
+  },
+  "calendar": {
+    "available": "disponibilité",
+    "fleet": "Transport interne",
+    "timeRange": "Transporteur externe",
+    "weekNext": "Semaine suivante",
+    "weekPrevious": "Semaine précédente",
+    "today": "Aujourd'hui"
+  },
+  "orderSummary": {
+    "carrierType": "Type de transporteur",
+    "type": {
+      "internal": "Transport interne",
+      "external": "Transport externe"
+    },
+    "carrierName": "Nom du transporteur",
+    "carrierUnknown": "Non renseigné"
+  },
+  "slipName": "Bordereau_de_livraison_{{timestamp}}.pdf",
+  "catalogs": {
+    "table": {
+      "title": "Nom du document",
+      "productsCount": "Nombre de produits",
+      "createdAt": "Date d'enregistrement",
+      "updatedAt": "Dernière mise à jour",
+      "expirationDate": "Date d'expiration du catalogue",
+      "reminderDate": "Date de rappel",
+      "actions": "Actions"
+    },
+    "actions": {
+      "update": "Mettre à jour",
+      "delete": "Supprimer",
+      "new": "Ajouter un nouveau catalogue de référence"
+    },
+    "remind": "Rappel mise à jour catalogue",
+    "load": "Chargement",
+    "delete": "Suppression des données du catalogue: {{title}}",
+    "form": {
+      "labelTitle": "Titre",
+      "labelInterval": "Nombre de jours avant expiration pour l'envoi d'un rappel",
+      "labelFile": "Fichier (.csv)",
+      "labelOutdated": "Date d'expiration du catalogue"
+    }
+  }
+}
