@@ -1,1 +1,13 @@
-{}
+{
+    "action": {
+        "update": "Update",
+        "cancelShort": "Cancel",
+        "confirm": "Confirm",
+        "modify": "Modify",
+        "isExporting": "Export in progress",
+        "export": "Export",
+        "mergeOrder": "Merge order",
+        "editOrder": "Edit order",
+        "add": "Add"
+    }
+}
