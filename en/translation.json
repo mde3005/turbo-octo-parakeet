@@ -8,6 +8,9 @@
         "export": "Export",
         "mergeOrder": "Merge order",
         "editOrder": "Edit order",
-        "add": "Add"
+        "add": "Add",
+        "close": "Close",
+        "sort": "Sort",
+        "send": "Send"
     }
 }
