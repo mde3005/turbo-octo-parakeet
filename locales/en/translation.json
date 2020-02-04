@@ -1,0 +1,988 @@
+{
+    "action": {
+        "add": "",
+        "editOrder": "",
+        "mergeOrder": "",
+        "export": "",
+        "isExporting": "",
+        "modify": "",
+        "confirm": "",
+        "cancelShort": "",
+        "update": "",
+        "send": "",
+        "sort": "",
+        "close": "",
+        "add_retailer": "",
+        "add_carrier": "",
+        "add_order": "",
+        "modify_retailer": "",
+        "save": "",
+        "cancel": "",
+        "search": "",
+        "filter": "",
+        "reset": "",
+        "cancelAlone": "",
+        "addPackage": "",
+        "addProduct": "",
+        "modifyPackage": "",
+        "validate": "",
+        "addDeliveryOrder": "",
+        "mergeOrders": "",
+        "modifyDelivery": "",
+        "modifyCancelOrder": "",
+        "lockedOrder": "",
+        "unauthorizedOrder_edit": "",
+        "unauthorizedOrder_cancel": "",
+        "cancelDelivery": "",
+        "noCancelDelivery": "",
+        "delete": "",
+        "deletion_colis": "",
+        "deletionProduct": "",
+        "load": "",
+        "seeTracking": "",
+        "showCarrierInformation": "",
+        "showPath": "",
+        "showComment": "",
+        "manualQuote": "",
+        "confirmDelivery": "",
+        "validateDelivery": "",
+        "confirmOrder": ""
+    },
+    "messages": {
+        "api": {
+            "error": "",
+            "save": "",
+            "empty": "",
+            "unsaved": "",
+            "conflictStore": "",
+            "conflictOrder": "",
+            "conflictDate": "",
+            "conflictMergeOrder": "",
+            "forbiddenMerge": "",
+            "forbiddenTypologie": "",
+            "forbiddenRange": ""
+        },
+        "incidents": {
+            "comment": "",
+            "status": ""
+        },
+        "user": {
+            "role-error": "",
+            "notAllowed": ""
+        },
+        "services": {
+            "chooseRoomOrHome": ""
+        },
+        "form": {
+            "urlFormat": "",
+            "noOpeningHours": ""
+        },
+        "hiddenInformations": ""
+    },
+    "menu": {
+        "title": "",
+        "dashboard": "",
+        "tracking": "",
+        "users": "",
+        "retailers": "",
+        "stores": "",
+        "incidents": "",
+        "deliveries": "",
+        "carriers": "",
+        "delivery": "",
+        "export": "",
+        "mergeOrders": "",
+        "notifications": "",
+        "kpi": "",
+        "subscriptions": ""
+    },
+    "time": {
+        "day": "",
+        "hour": "",
+        "minute": "",
+        "second": ""
+    },
+    "days": {
+        "mon": "",
+        "tue": "",
+        "wed": "",
+        "thu": "",
+        "fri": "",
+        "sat": "",
+        "sun": "",
+        "initials": {
+            "mon": "",
+            "tue": "",
+            "wed": "",
+            "thu": "",
+            "fri": "",
+            "sat": "",
+            "sun": ""
+        }
+    },
+    "header": {
+        "account": "",
+        "disconnect": ""
+    },
+    "retailer": {
+        "header": "",
+        "title": "",
+        "name": "",
+        "smsSendingName": "",
+        "id": "",
+        "api": "",
+        "auth": "",
+        "logo": "",
+        "color": "",
+        "contact": "",
+        "carriers": "",
+        "noMinScore": "",
+        "minScore": "",
+        "minScoreTitle": "",
+        "minuteBeforeCutoff": "",
+        "minuteBeforeCutoffTitle": "",
+        "catalogs": "",
+        "typologies": {
+            "name": "",
+            "required": "",
+            "confirmActivation": "",
+            "confirmDisable": ""
+        },
+        "administration": {
+            "header": "",
+            "retailerHeader": "",
+            "url": "",
+            "mentions": ""
+        },
+        "steps": {
+            "title": "",
+            "enable": "",
+            "disable": "",
+            "list": {
+                "STEP_ORDER": "",
+                "STEP_PACKAGES": "",
+                "STEP_SERVICES": "",
+                "STEP_DELIVERY_CONTACT": "",
+                "STEP_DELIVERY_ADDRESS": "",
+                "STEP_DELIVERY_RANGE": "",
+                "STEP_PICKING_ADDRESS": "",
+                "STEP_PICKING_RANGE": ""
+            }
+        },
+        "weightingIndexes": {
+            "header": "",
+            "price": "",
+            "environment": "",
+            "satisfaction": "",
+            "warning": ""
+        },
+        "validation": {
+            "smsSendingName": ""
+        }
+    },
+    "store": {
+        "store_list": "",
+        "confirmActivation": "",
+        "confirmDesactivation": "",
+        "name": "",
+        "externalStoreId": "",
+        "categories": {
+            "info": "",
+            "contacts": {
+                "administrative": "",
+                "levy": ""
+            },
+            "address": "",
+            "openingHours": "",
+            "internalFleets": ""
+        },
+        "internalFleet": {
+            "categories": {
+                "informations": "",
+                "internalFleet": ""
+            },
+            "id": "",
+            "name": "",
+            "beginningHour": "",
+            "endingHour": "",
+            "slot": "",
+            "capacity": "",
+            "confirmDesactivate": "",
+            "confirmActivate": "",
+            "state": {
+                "active": "",
+                "inactive": ""
+            },
+            "add": "",
+            "modify": "",
+            "error": "",
+            "errorHour": ""
+        },
+        "openingHours": {
+            "closed": ""
+        },
+        "state": {
+            "active": "",
+            "inactive": ""
+        }
+    },
+    "incidents": {
+        "name": "",
+        "related": "",
+        "count": "",
+        "filter": "",
+        "search": {
+            "title": "",
+            "subtitle": "",
+            "notFound": ""
+        }
+    },
+    "incident": {
+        "title": "",
+        "type": "",
+        "information": "",
+        "delivery": "",
+        "retailer": "",
+        "store": "",
+        "ordernull": "",
+        "suivi": "",
+        "suivi_update": "",
+        "alreadyCompleted": "",
+        "referenceNumber": "",
+        "status": {
+            "new": "",
+            "INCIDENT_NEW": "",
+            "INCIDENT_OPEN": "",
+            "INCIDENT_LITIGATION": "",
+            "INCIDENT_LITIGATION_CARRIER": "",
+            "INCIDENT_CLOSED": ""
+        },
+        "types": {
+            "INCIDENT_INELIGIBLE_STORE": "",
+            "INCIDENT_DELIVERY_PICK_UP_FAILED": "",
+            "INCIDENT_DELIVERY_PICK_UP_PARTIALLY": "",
+            "INCIDENT_DELIVERY_WITH_CLAIM": "",
+            "INCIDENT_DELIVERY_FAILED": "",
+            "INCIDENT_DELIVERY_CANCELLED": "",
+            "INCIDENT_NO_CARRIER_AVAILABLE": "",
+            "INCIDENT_NO_CARRIER_ELIGIBLE": "",
+            "INCIDENT_ORDER_TO_BE_COMPLETED": "",
+            "INCIDENT_ORDER_WITH_NO_QUOTE": "",
+            "INCIDENT_UNDER_RATE_SCORE": "",
+            "INCIDENT_FORBIDDEN_TYPOLOGY": ""
+        },
+        "catch": ""
+    },
+    "billing": {
+        "deltacost": {
+            "DELTACOST_WRONG_FLOOR": "",
+            "DELTACOST_EXTEND_WAITING_WAREHOUSE": "",
+            "DELTACOST_EXTEND_WAITING_CUSTOMER": "",
+            "DELTACOST_WRONG_CONTENT": "",
+            "DELTACOST_WAREHOUSE_RETURN": "",
+            "DELTACOST_LATE_CANCELLATION": "",
+            "DELTACOST_PICKUP_FAILED": "",
+            "DELTACOST_PARTIALLY_DELIVERED": "",
+            "DELTACOST_UNKNOWN": ""
+        },
+        "vat": {
+            "excluded": "",
+            "included": ""
+        }
+    },
+    "deliveries": {
+        "title": "",
+        "delivery_list": "",
+        "filters": "",
+        "quick_search": {
+            "title": "",
+            "description": "",
+            "notfound": "",
+            "notonylyone": ""
+        },
+        "tab_header": {
+            "icon": "",
+            "date": "",
+            "createdAt": "",
+            "externalDeliveryId": "",
+            "referenceNumber": "",
+            "retailer": "",
+            "order_status": "",
+            "delivery_status": "",
+            "carrier": "",
+            "store": "",
+            "internalFleet": "",
+            "retailerOnly": ""
+        },
+        "cancel_order": {
+            "titleCancelOrder": "",
+            "messageCancelOrder": "",
+            "messageCancelOrderExtraCost": "",
+            "messageCancelOrderImpossible": ""
+        },
+        "manualQuote": {
+            "title": "",
+            "availableCarrier": "",
+            "availableCarrier_plural": "",
+            "carrier": "",
+            "deliveryId": "",
+            "price": "",
+            "vehicleType": "",
+            "confirm": ""
+        },
+        "confirm": {
+            "title": "",
+            "content": "",
+            "success": ""
+        },
+        "confirmOrder": {
+            "title": "",
+            "content": ""
+        },
+        "validate": {
+            "title": "",
+            "content": ""
+        }
+    },
+    "order": {
+        "summary": "",
+        "order": "",
+        "orderId": "",
+        "orderReference": "",
+        "addReference": "",
+        "technicalId": "",
+        "status": "",
+        "deliveryStatus": "",
+        "deliveryStatusTitle": "",
+        "orderStatus": "",
+        "unvalidated": "",
+        "quoteTitle": "",
+        "hide": "",
+        "open": "",
+        "delivery": "",
+        "contact": "",
+        "followDelivery": "",
+        "claim": "",
+        "externalDeliveryId": "",
+        "externalDeliveryReference": "",
+        "route": "",
+        "billings": "",
+        "shippingInfo": "",
+        "deliveryInfo": "",
+        "orderRef": "",
+        "generalInformation": "",
+        "clientInfo": "",
+        "pickingInfos": "",
+        "checkinDate": "",
+        "services": "",
+        "package": "",
+        "packageDetail": "",
+        "packageTotalNumber": "",
+        "packageTotalWeight": "",
+        "downloadPdf": "",
+        "refreshStatus": "",
+        "length": "",
+        "width": "",
+        "weight": "",
+        "height": "",
+        "size": "",
+        "description": "",
+        "ean": "",
+        "cug": "",
+        "label": "",
+        "addProduct": "",
+        "product": "",
+        "quantity": "",
+        "boxNumber": "",
+        "articleQuantity": "",
+        "volume": "",
+        "usedVolume": "",
+        "volumeExplanation": "",
+        "productTypes": "",
+        "productTypesDisclaimer": "",
+        "tracking": "",
+        "deliveryContact": "",
+        "pickingContact": "",
+        "deliveryAddress": "",
+        "moreInfo": "",
+        "adressMoreInfo": "",
+        "DeliveryInterval": "",
+        "timeRange": "",
+        "deliveryDate": "",
+        "deliveryHour": "",
+        "pickupAddress": "",
+        "PickingInterval": "",
+        "pickupDate": "",
+        "pickupHour": "",
+        "required": "",
+        "addColis": "",
+        "deleteColis": "",
+        "confirmDeleteColis": "",
+        "confirmDeleteProduct": "",
+        "editColis": "",
+        "titleModifyOrder": "",
+        "messageModifyOrder": "",
+        "cancelBo": "",
+        "carrier": "",
+        "transport": "",
+        "billedVehicle": "",
+        "carrierPrice": "",
+        "billedDistance": "",
+        "emittedCarbon": "",
+        "delta": "",
+        "retailer": "",
+        "store": "",
+        "saveDate": "",
+        "serviceLevel": "",
+        "deliveryScore": "",
+        "referenceNumber": "",
+        "businessReferenceNumber": "",
+        "updatedOrder": "",
+        "notifications": "",
+        "comments": "",
+        "team": "",
+        "error": {
+            "packages": "",
+            "invalidPackages": "",
+            "invalidValue": "",
+            "invalidProducts": "",
+            "invalidInformations": "",
+            "invalidTypology": "",
+            "services": "",
+            "typology": "",
+            "length": "",
+            "pickHour": "",
+            "deliveryHour": "",
+            "deliveryDate": "",
+            "deliveryContact": "",
+            "deliveryAddress": "",
+            "pickupContact": "",
+            "pickupAddress": ""
+        }
+    },
+    "services": {
+        "types": {
+            "SERVICE_FRONT_HOME": "",
+            "SERVICE_SELECTED_ROOM": "",
+            "SERVICE_PICKUP_POINT": "",
+            "SERVICE_REGULAR_FRONT_HOME": ""
+        },
+        "options": {
+            "SERVICE_UNPACKING": "",
+            "SERVICE_INSTALL": "",
+            "SERVICE_RECOVERY": ""
+        }
+    },
+    "intervalMode": {
+        "INTERVAL_MODE_EXPRESS": "",
+        "INTERVAL_MODE_STANDARD": ""
+    },
+    "mergeOrders": {
+        "title": "",
+        "mainOrder": "",
+        "placeholder": "",
+        "ordersToMerge": ""
+    },
+    "DeliveryStatus": {
+        "DELIVERY_INIT": "",
+        "DELIVERY_STARTED": "",
+        "DELIVERY_PICK_UP_REACHED": "",
+        "DELIVERY_PICK_UP_OK": "",
+        "DELIVERY_PICK_UP_PARTIALLY": "",
+        "DELIVERY_IN_PROGRESS": "",
+        "DELIVERY_AT_DROP_OF_LOCATION": "",
+        "DELIVERY_PICK_UP_FAILED": "",
+        "DELIVERY_DELIVERED_WITH_CLAIM": "",
+        "DELIVERY_CANCELLED_WITH_RETURN": "",
+        "DELIVERY_CANCELLED_WITHOUT_RETURN": "",
+        "DELIVERY_FAILED_WITH_RETURN": "",
+        "DELIVERY_FAILED_WITHOUT_RETURN": "",
+        "DELIVERY_RETURNED_TO_PICK_UP": "",
+        "DELIVERY_DELIVERED_OK": "",
+        "DELIVERY_DELIVERED_PARTIALLY": "",
+        "DELIVERY_CANCELLED": "",
+        "DELIVERY_BLOCKED": "",
+        "DELIVERY_AVAILABLE": "",
+        "DELIVERY_DELAYED": ""
+    },
+    "deliveryPackage": {
+        "noTracking": "",
+        "tracking": "",
+        "trackingNumber": "",
+        "currentStatus": ""
+    },
+    "OrderStatus": {
+        "ORDER_CREATED": "",
+        "ORDER_UPDATED": "",
+        "ORDER_TO_BE_COMPLETED": "",
+        "ORDER_WITH_NO_CARRIER_ELIGIBLE": "",
+        "ORDER_TO_BE_QUOTED": "",
+        "ORDER_QUOTED": "",
+        "ORDER_WITH_NO_QUOTE": "",
+        "ORDER_QUOTE_TO_BE_CONFIRMED": "",
+        "ORDER_TO_BE_SENT_TO_CARRIER": "",
+        "ORDER_WITH_NO_CARRIER_AVAILABLE": "",
+        "ORDER_REFUSED_DELIVERY": "",
+        "ORDER_TO_DELIVER": "",
+        "ORDER_BEING_DELIVERED": "",
+        "ORDER_DELIVERY_UNCOMPLETED": "",
+        "ORDER_DELIVERED": "",
+        "ORDER_CANCELLED": ""
+    },
+    "vehicleType": {
+        "VEHICLE_TYPE_BIKE": "",
+        "VEHICLE_TYPE_SCOOTER": "",
+        "VEHICLE_TYPE_E_SCOOTER": "",
+        "VEHICLE_TYPE_VAN_SMALL": "",
+        "VEHICLE_TYPE_E_VAN_SMALL": "",
+        "VEHICLE_TYPE_VAN_MEDIUM": "",
+        "VEHICLE_TYPE_PEDESTRIAN": "",
+        "VEHICLE_TYPE_TRUCK": "",
+        "VEHICLE_TYPE_VAN_BIG": "",
+        "VEHICLE_TYPE_E_VAN_BIG": "",
+        "VEHICLE_TYPE_BIKE_CARGO": "",
+        "VEHICLE_TYPE_CAR": "",
+        "VEHICLE_TYPE_E_CAR": ""
+    },
+    "reason": {
+        "REFUSED_TOO_HEAVY": "",
+        "REFUSED_AVAILABILITY": "",
+        "REFUSED_AREA": "",
+        "REFUSED_TOO_LARGE": "",
+        "REFUSED_TIME_NOT_WORKED": "",
+        "REFUSED_DAY_OFF": "",
+        "REFUSED_EXCEPTION": "",
+        "TECHNICAL_TIMEOUT": ""
+    },
+    "contacts": {
+        "main": "",
+        "notitle": "",
+        "title": "",
+        "lastName": "",
+        "firstName": "",
+        "email": "",
+        "phone": "",
+        "fleet": ""
+    },
+    "address": {
+        "main": "",
+        "notitle": "",
+        "title": "",
+        "addressLine1": "",
+        "addressLine2": "",
+        "postalCode": "",
+        "city": "",
+        "country": "",
+        "infos": "",
+        "lift": "",
+        "noLift": "",
+        "withLift": "",
+        "floor": "",
+        "noFloor": "",
+        "goundFloor": "",
+        "digitalCode": "",
+        "noDigitalCode": "",
+        "comment": "",
+        "disabledLift": ""
+    },
+    "carriers": {
+        "title": "",
+        "name": "",
+        "characteristics": "",
+        "maxKilogramCapacity": "",
+        "score": "",
+        "confirmActivation": "",
+        "confirmDisable": "",
+        "stockageAvailability": ""
+    },
+    "table": {
+        "active": "",
+        "id": "",
+        "name": "",
+        "smsSendingName": "",
+        "email": "",
+        "contact": "",
+        "store_number": "",
+        "weighting": "",
+        "status": "",
+        "date": "",
+        "full_date": "",
+        "pick_date": "",
+        "createdAt": "",
+        "store": "",
+        "ticket_ref": "",
+        "referenceNumber": "",
+        "delivery_status": "",
+        "externalDeliveryId": "",
+        "incident_type": "",
+        "incident_status": "",
+        "comment": "",
+        "actor": "",
+        "retailer": "",
+        "carrier": "",
+        "retailerOnly": "",
+        "role": "",
+        "header_sort": "",
+        "event": "",
+        "dateHour": "",
+        "interval": "",
+        "reason": "",
+        "value": "",
+        "timestamp": "",
+        "to": {
+            "hour": "",
+            "day": ""
+        },
+        "refQuote": "",
+        "vehicle": "",
+        "quotePrice": "",
+        "indexes": {
+            "environment": "",
+            "score": "",
+            "price": ""
+        },
+        "reasonCarrier": "",
+        "score": "",
+        "clientLastname": "",
+        "notifications": {
+            "status": "",
+            "sender": "",
+            "type": "",
+            "date": "",
+            "subject": "",
+            "message": "",
+            "failReason": ""
+        },
+        "team": "",
+        "externalStatus": "",
+        "externalLabel": "",
+        "steps": "",
+        "internalFleet": ""
+    },
+    "dashboard": {
+        "deliveries": {
+            "icon": "",
+            "createdAt": "",
+            "deliveries_today": "",
+            "deliveries_d1": "",
+            "deliveries_d2": "",
+            "deliveries_next": "",
+            "delivery_status": "",
+            "pick_hour": "",
+            "pick_hour_day": "",
+            "externalDeliveryId": "",
+            "referenceNumber": "",
+            "retailer": "",
+            "store": "",
+            "carrier": "",
+            "order_status": ""
+        },
+        "incidents": {
+            "see_all": "",
+            "title": ""
+        }
+    },
+    "carrier": {
+        "state": {
+            "active": "",
+            "inactive": ""
+        },
+        "active": "",
+        "contact": "",
+        "address": "",
+        "siret": "",
+        "claim": {
+            "label": "",
+            "noUrl": ""
+        },
+        "tracking": {
+            "label": ""
+        },
+        "typology": "",
+        "service": "",
+        "intervention": "",
+        "department": "",
+        "countryCovered": "",
+        "countryUncovered": "",
+        "detailintervention": "",
+        "adddepartment": "",
+        "confirmActivation": "",
+        "confirmDesactivation": "",
+        "SERVICE_SELECTED_ROOM": "",
+        "SERVICE_UNPACKING": "",
+        "SERVICE_INSTALL": "",
+        "SERVICE_FRONT_HOME": "",
+        "SERVICE_REGULAR_FRONT_HOME": "",
+        "SERVICE_RECOVERY": "",
+        "SERVICE_PICKUP_POINT": "",
+        "TYPOLOGY_GENERIC": "",
+        "TYPOLOGY_GROCERY": "",
+        "TYPOLOGY_FRESH": "",
+        "TYPOLOGY_FROZEN": "",
+        "TYPOLOGY_DANGEROUS": "",
+        "TYPOLOGY_HOUSEHOLD": "",
+        "TYPOLOGY_VOLUMINOUS": "",
+        "TYPOLOGY_FRAGILE": "",
+        "TYPOLOGY_VOLUMINOUS_FRAGILE": ""
+    },
+    "export": {
+        "title": "",
+        "filter": "",
+        "carrier": "",
+        "retailer": "",
+        "internalFleet": "",
+        "store": "",
+        "orderStatus": "",
+        "deliveryStatus": "",
+        "rangePicking": "",
+        "rangeDelivery": "",
+        "from": "",
+        "to": "",
+        "messageConfirm": "",
+        "messageConfirmWithWarning": ""
+    },
+    "users": {
+        "roles": {
+            "SUPER_ADMIN": "",
+            "ADMIN": "",
+            "RETAILER": "",
+            "STORE": "",
+            "STORE_ASSISTANT": "",
+            "NONE": ""
+        },
+        "title": "",
+        "filters": "",
+        "header": "",
+        "contact": "",
+        "email": "",
+        "phone": "",
+        "position": "",
+        "role": "",
+        "name": "",
+        "store": "",
+        "retailer": "",
+        "state": {
+            "active": "",
+            "inactive": ""
+        }
+    },
+    "login": {
+        "title": "",
+        "hint": ""
+    },
+    "fallback": {
+        "error": {
+            "title": "",
+            "description": ""
+        },
+        "notfound": {
+            "title": "",
+            "description": ""
+        },
+        "unauthorized": {
+            "title": "",
+            "description": ""
+        }
+    },
+    "input": {
+        "phone_msg": "",
+        "phone_completed": "",
+        "image_size": "",
+        "image_format": "",
+        "color": "",
+        "url": ""
+    },
+    "common": {
+        "kilogram": "",
+        "no_limit": "",
+        "products": "",
+        "other": "",
+        "between": "",
+        "edited": "",
+        "and": "",
+        "true": "",
+        "address": "",
+        "euro": "",
+        "false": "",
+        "minute": "",
+        "deliveryDate": ""
+    },
+    "country": {
+        "FR": "",
+        "BE": ""
+    },
+    "answer": {
+        "satisfaction": "",
+        "recommendation": "",
+        "comment": ""
+    },
+    "pdf": {
+        "store": "",
+        "delivery": "",
+        "pickup": "",
+        "package": "",
+        "address": "",
+        "deliveryDate": "",
+        "phone": "",
+        "carrierReference": "",
+        "primaryReference": "",
+        "secondaryReference": "",
+        "productDescription": "",
+        "packageNumber": "",
+        "totalWeight": "",
+        "title": "",
+        "services": "",
+        "filename": ""
+    },
+    "notifications": {
+        "picto": {
+            "sentToCustomer": ""
+        },
+        "types": {
+            "SMS": "",
+            "MAIL": "",
+            "SLACK": "",
+            "CALL": "",
+            "EVENT_TYPE_SMS": "",
+            "EVENT_TYPE_MAIL": "",
+            "EVENT_TYPE_CALL": ""
+        },
+        "subject": {
+            "INCIDENT_INELIGIBLE_STORE": "",
+            "INCIDENT_DELIVERY_PICK_UP_FAILED": "",
+            "INCIDENT_DELIVERY_WITH_CLAIM": "",
+            "INCIDENT_DELIVERY_FAILED": "",
+            "INCIDENT_DELIVERY_CANCELLED": "",
+            "INCIDENT_NO_CARRIER_AVAILABLE": "",
+            "INCIDENT_NO_CARRIER_ELIGIBLE": "",
+            "INCIDENT_ORDER_TO_BE_COMPLETED": "",
+            "INCIDENT_ORDER_WITH_NO_QUOTE": "",
+            "INCIDENT_UNDER_RATE_SCORE": "",
+            "TECHNICAL_DELTA_COST": "",
+            "TECHNICAL_DELIVERY_PICKUP_SOON": "",
+            "DELIVERY_INIT": "",
+            "DELIVERY_STARTED": "",
+            "DELIVERY_PICK_UP_REACHED": "",
+            "DELIVERY_PICK_UP_OK": "",
+            "DELIVERY_DELIVERED_OK": "",
+            "DELIVERY_IN_PROGRESS": "",
+            "DELIVERY_AT_DROP_OF_LOCATION": "",
+            "DELIVERY_PICK_UP_FAILED": "",
+            "DELIVERY_DELIVERED_WITH_CLAIM": "",
+            "DELIVERY_CANCELLED_WITH_RETURN": "",
+            "DELIVERY_FAILED_WITH_RETURN": "",
+            "DELIVERY_RETURNED_TO_PICK_UP": "",
+            "DELIVERY_CANCELLED": "",
+            "SMS_PICK_UP_SOON": "",
+            "CARRIER_UPDATE": ""
+        },
+        "states": {
+            "title": "",
+            "carrier": "",
+            "confirmDesactivation": "",
+            "confirmActivation": "",
+            "SMS_INIT": "",
+            "SMS_PICK_UP_SOON": "",
+            "SMS_PICK_UP_OK": "",
+            "SMS_DELIVERED_OK": ""
+        }
+    },
+    "kpi": {
+        "title": {
+            "global": {
+                "newOrder": "",
+                "delivered": "",
+                "deliveredWithClaim": "",
+                "deliveryInProgress": "",
+                "deliveryToBeCompleted": "",
+                "deliveryLitigation": "",
+                "business": "",
+                "qa": "",
+                "logistic": ""
+            },
+            "clientSatisfaction": "",
+            "dropOff": "",
+            "loading": "",
+            "onTimeDelivery": "",
+            "packageWeight": "",
+            "cost": "",
+            "incidentByType": "",
+            "deliveryByCarrier": "",
+            "deliveriesByDate": ""
+        },
+        "description": {
+            "clientSatisfaction": "",
+            "dropOff": "",
+            "loading": "",
+            "onTimeDelivery": "",
+            "packageWeight": "",
+            "cost": "",
+            "incidentByType": "",
+            "deliveryByCarrier": ""
+        },
+        "filter": {
+            "label": "",
+            "retailer": "",
+            "store": "",
+            "week": "",
+            "month": "",
+            "prevMonths": "",
+            "from": "",
+            "to": "",
+            "more": ""
+        },
+        "error": {
+            "noDataFound": ""
+        }
+    },
+    "subscriptions": {
+        "title": "",
+        "retailer": "",
+        "carrier": "",
+        "initialized": "",
+        "uninitialized": ""
+    },
+    "calendar": {
+        "available": "",
+        "fleet": "",
+        "timeRange": "",
+        "weekNext": "",
+        "weekPrevious": "",
+        "today": ""
+    },
+    "orderSummary": {
+        "carrierType": "",
+        "type": {
+            "internal": "",
+            "external": ""
+        },
+        "carrierName": "",
+        "carrierUnknown": ""
+    },
+    "slipName": "",
+    "catalogs": {
+        "table": {
+            "title": "",
+            "productsCount": "",
+            "createdAt": "",
+            "updatedAt": "",
+            "expirationDate": "",
+            "reminderDate": "",
+            "actions": ""
+        },
+        "actions": {
+            "update": "",
+            "delete": "",
+            "new": ""
+        },
+        "remind": "",
+        "load": "",
+        "delete": "",
+        "form": {
+            "labelTitle": "",
+            "labelInterval": "",
+            "labelFile": "",
+            "labelOutdated": ""
+        }
+    }
+}
