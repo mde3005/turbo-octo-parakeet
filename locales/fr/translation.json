@@ -1,4 +1,5 @@
 {
+  "test": "test",
   "action": {
     "add": "Ajouter",
     "editOrder": "Editer la commande",
